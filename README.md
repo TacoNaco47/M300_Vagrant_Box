@@ -119,7 +119,7 @@ Dies ist eine ganz schöne Menge an Code. Aber keine Sorge, der Code ist leicht 
 Ist der Header des Vagrantfiles. Er legt die grundsätzliche Konfiguration fest und ist über die Variable **config** ansprechbar.
 
 `config.vm.provision :shell, inline: "echo A"` <br>
-Dient uns lediglich zum Verständnis. Bei der anschliessenden Erstellung der VM wird im Output der Konsole nämlich "echo A" ausgegeben.
+Dient uns lediglich zum Verständnis. Bei der anschliessenden Erstellung der VM wird im Output der Konsole nämlich "A" ausgegeben.
 
 `config.vm.define :apache do |web|` <br>
 Definiert die erste Virtuelle Maschine (VM), die **apache** heisst und über die Variable **web** anzusprechen ist.
@@ -225,3 +225,8 @@ https://www.vagrantup.com/docs/multi-machine/
 
 Als ich mit der HTML-Anzeige Probleme hatte, half mir folgender Forum-Post weiter:<br>
 https://stackoverflow.com/questions/30960478/trouble-with-vagrant-404-not-found
+
+Weitere Unterstützung durch:<br>
+* https://stackoverflow.com/questions/5127838/where-does-php-store-the-error-log-php5-apache-fastcgi-cpanel
+* https://stackoverflow.com/questions/2852748/pdoexception-could-not-find-driver
+  
