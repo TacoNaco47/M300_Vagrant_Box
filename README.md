@@ -26,20 +26,20 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung einer vollständi
 * [X] Text-Editor (z.B. Visual Studio Code)
 
 #### Inhaltsverzeichnis
-* 01 - [Vorbereitungen](https://github.com/TacoTaco47/M300#-01---github-account)
-* 02 - [Box hinzufügen](https://github.com/TacoTaco47/M300#--02---git-client)
-* 03 - [VMs konfigurieren](https://github.com/TacoTaco47/M300#--03---virtualbox)
-* 04 - [Provisionierung](https://github.com/TacoTaco47/M300#-05---visual-studio-code)
-* 05 - [Ordner-Synchronisation](https://github.com/TacoTaco47/M300#--04---vagrant)
-* 06 - [Port-Weiterleitunng](https://github.com/TacoTaco47/M300#-06---fazit--reflexion)
-* 07 - [Quellenverzeichnis](https://github.com/TacoTaco47/M300#-07---quellenverzeichnis)
+* 01 - [Vorbereitungen](https://github.com/TacoNaco47/M300_Vagrant_Box#-01---vorbereitungen)
+* 02 - [Box hinzufügen](https://github.com/TacoNaco47/M300_Vagrant_Box#-02---box-hinzuf%C3%BCgen)
+* 03 - [VMs konfigurieren](https://github.com/TacoNaco47/M300_Vagrant_Box#-03---vms-konfigurieren)
+* 04 - [Provisionierung](https://github.com/TacoNaco47/M300_Vagrant_Box#-04---provisionierung)
+* 05 - [Ordner-Synchronisation](https://github.com/TacoNaco47/M300_Vagrant_Box#-05---ordner-synchronisation)
+* 06 - [Port-Weiterleitunng](https://github.com/TacoNaco47/M300_Vagrant_Box#-06---port-weiterleitunng)
+* 07 - [Quellenverzeichnis](https://github.com/TacoNaco47/M300_Vagrant_Box#-07---quellenverzeichnis)
 
 ___
 
 ![](XXX "XXX") 01 - Vorbereitungen
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Für die Erstellung einer Multi-Maschinen-Umgebung mit Vagrant muss zuallererst das sogenannte Vagrantfile erstellt werden. Dies ist eine Datei, welche alle notwendigen Konfigurationselemente beherrbergt, die zur Erstellung der einzelnen VMs benötigt werden.
 
@@ -65,7 +65,7 @@ Mit dem letzten Befehl wird das Vagrantfile im aktuellen Verzeichnis `MeinVagran
 ![](XXX "XXX") 02 - Box hinzufügen
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Als nächstes benötigen wir eine Vagrant Box, die uns eine Art "System-Image" (Abbild) liefert, auf welchem wir unsere eigene Konfiguration mit den Services aufbauen können.
 
@@ -88,7 +88,7 @@ Der letzte Befehl lädt die Box herunter und fügt sie Vagrant hinzu. Sobald wir
 ![](XXX "XXX") 03 - VMs konfigurieren
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Die VM könnte nun fast ohne weitere Probleme gestartet werden. Jedoch müssen wir im Vagrantfile noch angeben, welche hinzugefügte Box verwendet werden soll. Dazu müssen folgende Schritte umgesetzt werden:
 
@@ -137,7 +137,7 @@ Jetzt aber weiter mit dem Start! Denn auf alle anderen Punkte wird in den nachfo
 ![](XXX "XXX") 04 - Provisionierung
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Soweit ist alles start-bereit und die beiden VMs könnten gestartet werden. In der Config ist uns aber folgender Punkt bei der Konfiguration der Web-VM (apache) aufgefallen:
 ```Ruby
@@ -185,7 +185,7 @@ Nun ist soweit alles eingerichtet. Aber aufgepasst: In den zwei letzten Abschnit
 ![](XXX "XXX") 05 - Ordner-Synchronisation
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Interessant zu sehen war, dass wir die HTML-Dateien für die Webseite lokal in unserem Projektordner abgelegt haben. Doch wie konnte VM auf diese Daten zugreifen? Lösung: **Ordner-Synchronisation**
 
@@ -199,7 +199,7 @@ Auf `/vagrant` kann man direkt zugreifen, sobald man sich per SSH verbindet. Aus
 ![](XXX "XXX") 06 - Port-Weiterleitunng
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 Das letzte Geheminis ist die Portweiterleitung. 
 
@@ -212,7 +212,7 @@ Alles klar soweit? Ich hoffe schon!
 ![](XXX "XXX") 07 - Quellenverzeichnis
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
 
 In diesem Abschnitt möchte ich zur Hilfe verwendete Quellen transparent offen legen.
 <br>
