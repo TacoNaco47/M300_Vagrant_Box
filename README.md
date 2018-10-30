@@ -37,7 +37,7 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung einer vollständi
 
 ___
 
-![](XXX "XXX") 01 - Vorbereitungen
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Preparations_36x36.png?raw=true "Vorbereitungen") 01 - Vorbereitungen
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -63,7 +63,7 @@ Die Datei erfüllt folgende Zwecke:
 Mit dem letzten Befehl wird das Vagrantfile im aktuellen Verzeichnis `MeinVagrantProjekt` erstellt. 
 
 
-![](XXX "XXX") 02 - Box hinzufügen
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Add_Box_36x36.png?raw=true "Box hinzufügen") 02 - Box hinzufügen
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -86,7 +86,7 @@ Der letzte Befehl lädt die Box herunter und fügt sie Vagrant hinzu. Sobald wir
 > Falls die Box noch nicht mit den Befehl `vagrant box add` hinzugefügt wurde, ist dies nicht weiter schlimm. Vagrant sucht automatisch im [Katalog](https://app.vagrantup.com/boxes/search) nach der entsprechenden Box.
 
 
-![](XXX "XXX") 03 - VMs konfigurieren
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/VM_Config_36x36.png?raw=true "VMs konfigurieren") 03 - VMs konfigurieren
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -135,7 +135,7 @@ Dieser Code-Abschnitt definiert die zweite VM und ist im Prinzip gleich wie die 
 Jetzt aber weiter mit dem Start! Denn auf alle anderen Punkte wird in den nachfolgenden Abschnitten genauer eingegangen.
 
 
-![](XXX "XXX") 04 - Provisionierung
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Software-Konfiguration_36x36.png?raw=true "Provisionierung") 04 - Provisionierung
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -183,7 +183,7 @@ Ob der Webserver mit Apache auch wirklich läuft, werden wir jetzt prüfen. Dazu
 
 Nun ist soweit alles eingerichtet. Aber aufgepasst: In den zwei letzten Abschnitten werden die beiden letzten Geheimnisse um die Konfiguration gelüftet!
 
-![](XXX "XXX") 05 - Ordner-Synchronisation
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Reflexion_36x36.png?raw=true "Ordner-Synchronisation") 05 - Ordner-Synchronisation
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -197,7 +197,7 @@ Im `bootstrap.sh` Script haben wir zudem auf VM-Ebene eine Umleitung zu `/vagran
 Auf `/vagrant` kann man direkt zugreifen, sobald man sich per SSH verbindet. Ausgangsverzeichnis ist dabei `/home/vagrant` und mit `cd /vagrant` wechselt man anschliessend in das Shared-Folder Verzeichnis.
 
 
-![](XXX "XXX") 06 - Port-Weiterleitunng
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Forward_36x36.png?raw=true "Port-Weiterleitunng") 06 - Port-Weiterleitunng
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
@@ -210,7 +210,7 @@ Der Grund dafür liegt im Vagrantfile. Dort haben wir beim Apache-Webserver die 
 Alles klar soweit? Ich hoffe schon!
 
 
-![](XXX "XXX") 07 - Quellenverzeichnis
+![](https://github.com/TacoNaco47/M300_Vagrant_Box/blob/master/images/Discover_36x36.png?raw=true "Quellenverzeichnis") 07 - Quellenverzeichnis
 ======
 
 > [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
