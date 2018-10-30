@@ -17,6 +17,7 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung einer vollständi
 | Datum         | Änderungen                                                                         |  Kürzel  |
 | ------------- |:-----------------------------------------------------------------------------------| :------: |
 | 25.09.2018    | Dokumentation erstellt & hochgeladen                                               |    MBL   |
+| 30.10.2018    | Grafiken eingefügt, kleine Verbesserungen gemacht                                  |    MBL   |
 |      ...      | ...                                                                                |    ...   |
 
 #### Voraussetzungen
@@ -39,7 +40,7 @@ ___
 ![](XXX "XXX") 01 - Vorbereitungen
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Für die Erstellung einer Multi-Maschinen-Umgebung mit Vagrant muss zuallererst das sogenannte Vagrantfile erstellt werden. Dies ist eine Datei, welche alle notwendigen Konfigurationselemente beherrbergt, die zur Erstellung der einzelnen VMs benötigt werden.
 
@@ -65,7 +66,7 @@ Mit dem letzten Befehl wird das Vagrantfile im aktuellen Verzeichnis `MeinVagran
 ![](XXX "XXX") 02 - Box hinzufügen
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Als nächstes benötigen wir eine Vagrant Box, die uns eine Art "System-Image" (Abbild) liefert, auf welchem wir unsere eigene Konfiguration mit den Services aufbauen können.
 
@@ -88,7 +89,7 @@ Der letzte Befehl lädt die Box herunter und fügt sie Vagrant hinzu. Sobald wir
 ![](XXX "XXX") 03 - VMs konfigurieren
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Die VM könnte nun fast ohne weitere Probleme gestartet werden. Jedoch müssen wir im Vagrantfile noch angeben, welche hinzugefügte Box verwendet werden soll. Dazu müssen folgende Schritte umgesetzt werden:
 
@@ -137,7 +138,7 @@ Jetzt aber weiter mit dem Start! Denn auf alle anderen Punkte wird in den nachfo
 ![](XXX "XXX") 04 - Provisionierung
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Soweit ist alles start-bereit und die beiden VMs könnten gestartet werden. In der Config ist uns aber folgender Punkt bei der Konfiguration der Web-VM (apache) aufgefallen:
 ```Ruby
@@ -185,7 +186,7 @@ Nun ist soweit alles eingerichtet. Aber aufgepasst: In den zwei letzten Abschnit
 ![](XXX "XXX") 05 - Ordner-Synchronisation
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Interessant zu sehen war, dass wir die HTML-Dateien für die Webseite lokal in unserem Projektordner abgelegt haben. Doch wie konnte VM auf diese Daten zugreifen? Lösung: **Ordner-Synchronisation**
 
@@ -199,7 +200,7 @@ Auf `/vagrant` kann man direkt zugreifen, sobald man sich per SSH verbindet. Aus
 ![](XXX "XXX") 06 - Port-Weiterleitunng
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 Das letzte Geheminis ist die Portweiterleitung. 
 
@@ -212,7 +213,7 @@ Alles klar soweit? Ich hoffe schon!
 ![](XXX "XXX") 07 - Quellenverzeichnis
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_Vagrant_Box#m300---vagrant-box)
 
 In diesem Abschnitt möchte ich zur Hilfe verwendete Quellen transparent offen legen.
 <br>
